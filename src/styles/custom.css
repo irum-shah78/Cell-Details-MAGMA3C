@@ -1,0 +1,32 @@
+.image{
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+}
+.card-body {
+  flex: 1;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.flex-fill {
+  flex: 1 1 auto;
+}
+.powered{
+  background-color: #1674BF;
+  color: white;
+}
+.checked-img{
+  height: 20px;
+  width: 20px;
+}
+.gradient-text {
+  background: linear-gradient(50deg, #d62976, #fa7e1e , #feda75, #962fbf, #4f5bd5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+

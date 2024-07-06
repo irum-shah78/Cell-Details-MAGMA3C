@@ -1,187 +1,29 @@
-/* .custom-width {
-  width: 70%;
-  margin: 0 auto;
+.custom-image {
+  max-height: 300px; 
+  width: auto; 
 }
-.image {
-  object-fit: cover;
-  height: 40px;
-  width: 40px;
+a{
+  text-decoration: none;
+  color:inherit;
 }
-.card-body {
-  flex: 1;
+.icon-hover:hover {
+  transition: color 0.3s ease;
 }
-.card img {
-  max-width: 100%;
-  height: auto;
+.youtube:hover {
+  color: #FF0000;
 }
-.flex-fill {
-  flex: 1 1 auto;
-}
-.powered {
-  background-color: #1674BF;
-  color: white;
-  border: 2px solid gray;
-  padding: 5px;
-}
-.checked-img {
-  height: 20px;
-  width: 20px;
-}
-.gradient-text {
-  background: linear-gradient(50deg, #d62976, #fa7e1e , #feda75, #962fbf, #4f5bd5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+.instagram:hover {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  -webkit-background-clip: text; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
 }
-
-.card {
-  margin: 0; 
-  border-right: 1px solid #dee2e6; 
-  border-bottom: 1px solid #dee2e6; 
+.linkedin:hover {
+  color: #0077B5 ;
 }
-
-.card:nth-child(4n) {
-  border-right: none; 
+.tiktok:hover {
+  color: #010101;
 }
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.row.no-gutters > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-
-@media only screen and (max-width: 992px) { 
-  .custom-width {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 768px) { 
-  .custom-width {
-    width: 90%;
-  }
-}
-
-@media only screen and (max-width: 576px) { 
-  .custom-width {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 580px) {
-  .speciality {
-    margin-top: 10px;
-  }
-} */
-
-
-.custom-width {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.image {
-  object-fit: cover;
-  height: 40px;
-  width: 40px;
-}
-
-.card-body {
-  flex: 1;
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.flex-fill {
-  flex: 1 1 auto;
-}
-
-.powered {
-  background-color: #1674BF;
-  color: white;
-  border: 2px solid gray;
-  /* padding: 5px; */
-}
-
-.checked-img {
-  height: 20px;
-  width: 20px;
-}
-
-.gradient-text {
-  background: linear-gradient(50deg, #d62976, #fa7e1e , #feda75, #962fbf, #4f5bd5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-}
-
-.card {
-  margin: 0; 
-  border-right: 1px solid #dee2e6; 
-  border-bottom: 1px solid #dee2e6; 
-}
-
-.card:nth-child(4n) {
-  border-right: none; /* Remove border from the last card in a row */
-}
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.row.no-gutters > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-@media only screen and (max-width: 992px) { 
-  .custom-width {
-    width: 75%;
-  }
-  
-  .camon-image {
-    width: 100px;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 768px) { 
-  .custom-width {
-    width: 90%;
-  }
-  
-  .camon-image {
-    width: 80px;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 576px) { 
-  .custom-width {
-    width: 100%;
-  }
-  
-  .camon-image {
-    width: 60px;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 580px) {
-  .speciality {
-    margin-top: 10px;
-  }
+.facebook:hover {
+  color: #1877F2;
 }

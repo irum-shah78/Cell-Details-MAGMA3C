@@ -10,15 +10,15 @@ const Details = () => {
         <div className="row">
           {/* Image */}
           <h4 className="text-white p-2" style={{ background: '#1674BF' }}>Tecno CAMON 30 PREMIER</h4>
-          <div className="col-12 col-md-4 col-lg-2 text-center">
+          <div className="col-12 col-md-4 col-lg-2 text-center mt-2">
             <img src={cellImage} alt="Tecno Camon" className="img-fluid custom-image" />
-            <h4 className="fw-bold mt-2" style={{ color: '#8B0000' }}>Rs. 159,000</h4>
-            <div className="d-flex justify-content-center align-items-center mt-2">
+            <h4 className="fw-bold mt-3" style={{ color: '#8B0000' }}>Rs. 159,000</h4>
+            {/* <div className="d-flex justify-content-center align-items-center mt-2">
               <p className="mb-0 me-2">MORE IMAGES</p>
               <div className="rounded-circle bg-dark-subtle d-flex align-items-center justify-content-center" style={{ height: '28px', width: '28px', cursor: 'pointer' }}>
                 <i className="fa-solid fa-arrow-right" style={{ color: '#000000' }}></i>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* Specifications */}
           <div className="col-12 col-md-8 col-lg-10">
@@ -99,7 +99,8 @@ const Details = () => {
                 <i className="fa-solid fa-exchange-alt icon-large"></i> COMPARE
               </button>
               <button className="btn btn-outline-secondary w-100 w-md-25">
-                <i className="fa-solid fa-play icon-large"></i> VIDEO REVIEWS
+                {/* <i className="fa-solid fa-play icon-large"></i> VIDEO REVIEWS */}
+                <i class="fa-solid fa-circle-chevron-down"></i> MORE IMAGES
               </button>
             </div>
             {/* Social Media Links */}

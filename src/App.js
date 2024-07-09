@@ -1,13 +1,13 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Details from './herosection/Details';
-// import CellDetails from './herosection/CellDetails';
+import Filter from './filtersection/Filter';
+// import Details from './herosection/Details';
 
 function App() {
   return (
-    // <CellDetails />
-    <Details />
+    // <Details />
+    <Filter />
   );
 }
 

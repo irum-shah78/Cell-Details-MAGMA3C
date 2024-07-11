@@ -81,7 +81,7 @@ const Filter = () => {
               </Form.Control>
             </Form.Group>
 
-            <Button variant="primary" className="mt-3" type="submit">
+            <Button variant="primary" className="mt-3 px-4" type="submit">
               Submit
             </Button>
           </Form>

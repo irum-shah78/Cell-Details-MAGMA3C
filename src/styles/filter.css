@@ -1,7 +1,6 @@
 .custom-slider .rc-slider-track {
   background-color: #1674BF;
 }
-
 .custom-slider .rc-slider-handle {
   background-color: #1674BF;
   border-color: #1674BF;
@@ -9,7 +8,6 @@
   width: 20px;
   margin-top: -8px;
 }
-
 .custom-slider .rc-slider-handle:focus,
 .custom-slider .rc-slider-handle:hover,
 .custom-slider .rc-slider-handle:active {
@@ -17,34 +15,56 @@
   border-color: #1674BF;
   box-shadow: 0 0 5px #1674BF;
 }
-
 .custom-apply-button {
   background-color: #1674BF;
   border-color: #1674BF;
 }
-
 .custom-apply-button:hover {
   background-color: #105b8d;
   border-color: #105b8d;
 }
-
 h5.text-center {
   text-align: center;
 }
-
 .form-label {
   font-weight: bold;
   font-size: 1rem;
+  text-shadow:1px 1px #6fb0f7;
 }
-
 .custom-apply-button {
   background-color: #1674BF;
   border-color: #1674BF;
   width: 100%;
   font-size: 1.1rem;
 }
-
 .custom-apply-button:hover {
   background-color: #105b8d;
   border-color: #105b8d;
 }
+select option{ 
+  color: #1674BF; 
+}
+.custom-select{
+  border:2px solid gray;
+}
+.custom-select:focus{
+  border:2px solid #1674BF;
+  box-shadow: 2px 2px #6fb0f7;
+}
+.color-family {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.color-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+.color-circle.selected {
+  border-color: #007bff;
+}
+

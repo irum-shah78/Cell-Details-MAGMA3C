@@ -25,12 +25,7 @@ const FilterCard = () => {
 
   const colors = [
     { label: 'Black', value: 'black' },
-    { label: 'Blue', value: 'blue' },
-    { label: 'Red', value: 'red' },
-    { label: 'Green', value: 'green' },
-    { label: 'Yellow', value: 'yellow' },
-    { label: 'Purple', value: 'purple' },
-    { label: 'Pink', value: 'pink' },
+    { label: 'White', value: 'white' }
   ];
 
   const toggleColorSelection = (color) => {
